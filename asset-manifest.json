@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tones-frontend/static/css/main.49124579.chunk.css",
+    "main.js": "/tones-frontend/static/js/main.08e9fd36.chunk.js",
+    "main.js.map": "/tones-frontend/static/js/main.08e9fd36.chunk.js.map",
+    "runtime-main.js": "/tones-frontend/static/js/runtime-main.528817af.js",
+    "runtime-main.js.map": "/tones-frontend/static/js/runtime-main.528817af.js.map",
+    "static/js/2.ff341314.chunk.js": "/tones-frontend/static/js/2.ff341314.chunk.js",
+    "static/js/2.ff341314.chunk.js.map": "/tones-frontend/static/js/2.ff341314.chunk.js.map",
+    "static/js/3.e802b276.chunk.js": "/tones-frontend/static/js/3.e802b276.chunk.js",
+    "static/js/3.e802b276.chunk.js.map": "/tones-frontend/static/js/3.e802b276.chunk.js.map",
+    "index.html": "/tones-frontend/index.html",
+    "static/css/main.49124579.chunk.css.map": "/tones-frontend/static/css/main.49124579.chunk.css.map",
+    "static/js/2.ff341314.chunk.js.LICENSE.txt": "/tones-frontend/static/js/2.ff341314.chunk.js.LICENSE.txt",
+    "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/tones-frontend/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
+    "static/media/close.afb4d2cf.svg": "/tones-frontend/static/media/close.afb4d2cf.svg",
+    "static/media/hamburger.be0a175c.svg": "/tones-frontend/static/media/hamburger.be0a175c.svg",
+    "static/media/header.7c42a081.png": "/tones-frontend/static/media/header.7c42a081.png",
+    "static/media/play.5e83fbcb.svg": "/tones-frontend/static/media/play.5e83fbcb.svg",
+    "static/media/sound-icon.146bca53.svg": "/tones-frontend/static/media/sound-icon.146bca53.svg",
+    "static/media/tones.d196d7bf.png": "/tones-frontend/static/media/tones.d196d7bf.png",
+    "static/media/tones_app.de18db96.png": "/tones-frontend/static/media/tones_app.de18db96.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.528817af.js",
+    "static/js/2.ff341314.chunk.js",
+    "static/css/main.49124579.chunk.css",
+    "static/js/main.08e9fd36.chunk.js"
+  ]
+}
