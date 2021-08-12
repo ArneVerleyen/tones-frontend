@@ -1,0 +1,19 @@
+@import '../../app.scss';
+
+.progressBarSmall {
+    height: 20px;
+    width: 40vw;
+    background-color: $color-light-purple;
+    border-radius: 50px;
+    margin: 2px 2px;
+}
+
+@media only screen and (min-width: 600px) {
+    .progressBarSmall {
+        height: 20px;
+        width: 350px;
+        background-color: $color-light-purple;
+        border-radius: 50px;
+        margin: 2px 2px;
+    }
+}

@@ -1,0 +1,89 @@
+@import '../../app.scss';
+
+.training-container{
+    background-color: $color-purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    a{
+        color: $color-yellow;
+        text-decoration: none;
+        font-family: $titles;
+        font-weight: 300;
+        width: 70vw;
+        text-align: center;
+        padding: 20px;
+        border-radius: 25px;
+        font-size: 24px;
+        background-color: $color-deep-purple;
+        margin-bottom: 30px;
+    }
+
+    .error {
+        display: flex;
+        justify-content: center;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            align-items: center;
+    
+            margin: 15px 0;
+            background-color: $color-yellow; 
+            width: 91vw;
+            border-radius: 24px;
+            padding: 20px 0px;
+            svg {
+                margin-left: 10px;
+                background-color: $color-yellow;  
+            }
+            p {
+                margin-right: 10px;
+                text-align: center;
+                background-color: $color-yellow; 
+                color: $color-deep-purple;
+                font-size: 16px;
+                font-family: $titles;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .training-container {
+        a {
+            width: 500px;
+        }
+    }
+    .error {
+        display: flex;
+        justify-content: center;
+        
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            align-items: center;
+    
+            margin: 15px 0;
+            background-color: $color-yellow; 
+            width: 500px;
+            border-radius: 24px;
+            padding: 10px 40px;
+            svg {
+                margin-left: 10px;
+                background-color: $color-yellow;  
+            }
+            p {
+                margin-right: 10px;
+                text-align: center;
+                background-color: $color-yellow; 
+                color: $color-deep-purple;
+                font-size: 16px;
+                font-family: $titles;
+            }
+        }
+    }
+}

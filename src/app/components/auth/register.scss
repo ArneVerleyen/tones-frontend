@@ -1,0 +1,62 @@
+@import '../../app.scss';
+
+.register-container {
+    background-color: $color-purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        padding: 20px 0 30px 0;
+        color: $color-yellow;
+        font-family: $titles;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    div {
+        p{
+            color: $color-yellow;
+            font-family: $titles;
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        input{
+            border: none;
+            background-color: $color-light-purple;
+            font-family: $aller;
+            width: 200px;
+            height: 25px;
+            padding: 0 10px;
+        }
+        input, select, textarea{
+            color: $color-deep-purple;
+            
+        }
+        
+        textarea:focus, input:focus {
+            outline: none !important;
+            color: $color-purple;
+            border: 1px solid $color-deep-purple;
+            box-shadow: 0 0 10px $color-light-purple;
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $color-deep-purple;
+            opacity: 1; /* Firefox */
+        }
+    }
+    button {
+        cursor: pointer;
+        width: 130px;
+        height: 50px;
+        text-decoration: none;
+        border: none;
+        background-color: $color-deep-purple;
+        color: $color-yellow;
+        font-family: $titles;
+        font-size: 24px;
+        margin-top: 40px;
+        font-weight: 300;
+    }
+}

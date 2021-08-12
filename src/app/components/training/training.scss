@@ -1,0 +1,31 @@
+@import '../../app.scss';
+
+.training-container{
+    background-color: $color-purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    a{
+        color: $color-yellow;
+        text-decoration: none;
+        font-family: $titles;
+        font-weight: 300;
+        width: 70vw;
+        text-align: center;
+        padding: 20px;
+        border-radius: 25px;
+        font-size: 24px;
+        background-color: $color-deep-purple;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .training-container {
+        a {
+            width: 500px;
+        }
+    }
+}

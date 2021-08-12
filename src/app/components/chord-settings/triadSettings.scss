@@ -1,0 +1,203 @@
+@import '../../app.scss';
+
+.triad-settings-container {
+    background-color: $color-purple;
+    margin-bottom: 40px;
+    .row {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 10px 10px 15px;
+        div {
+            background-color: $color-deep-purple;
+            border-radius: 24px;
+            padding: 20px;
+            width: 35vw;
+            text-align: center;
+            margin: 0 5px;
+            cursor: pointer;
+            p {
+                font-size: 16px;
+                background-color: inherit;
+                color: $color-yellow;
+                font-family: $titles;
+            }
+        }
+
+        .active {
+            background-color: $color-yellow;
+            border-radius: 24px;
+            padding: 20px;
+            width: 35vw;
+            margin: 0 5px;
+            text-align: center;
+            cursor: pointer;
+            p {
+                font-size: 16px;
+                background-color: inherit;
+                color: $color-deep-purple;
+                font-family: $titles;
+            }
+        }
+    }
+
+    .select {
+        text-align: center;
+        select {
+            font-size: 16px;
+            background-color: inherit;
+            color: $color-yellow;
+            font-family: $titles;
+            border: none;
+            background-color: $color-deep-purple;
+            padding: 20px;
+            border-radius: 24px;
+            width: 91vw;
+        }
+    }
+
+    .link {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+        h3 {
+            background-color: $color-deep-purple;
+            padding: 20px 0px;
+            color: $color-yellow;
+            font-size: 16px;
+            font-family: $titles;
+            width: 91vw;
+            border-radius: 24px;
+            a {
+                text-decoration: none;
+                color: $color-yellow;
+                background-color: transparent;
+            }
+            a:hover{
+                color: $color-light-purple;
+            }
+        }
+        h3:hover{
+            color: $color-light-purple;
+        }
+    }
+
+    .error {
+        display: flex;
+        justify-content: center;
+        
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            align-items: center;
+    
+            margin: 15px 0;
+            background-color: $color-yellow; 
+            width: 91vw;
+            border-radius: 24px;
+            padding: 20px 0px;
+            svg {
+                margin-left: 10px;
+                background-color: $color-yellow;  
+            }
+            p {
+                margin-right: 10px;
+                text-align: center;
+                background-color: $color-yellow; 
+                color: $color-deep-purple;
+                font-size: 16px;
+                font-family: $titles;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .triad-settings-container {
+        background-color: $color-purple;
+        margin-bottom: 40px;
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 0 10px 10px 15px;
+            div {
+                background-color: $color-deep-purple;
+                border-radius: 24px;
+                padding: 20px;
+                width: 260px;
+                text-align: center;
+                margin: 0 5px;
+                p {
+                    font-size: 16px;
+                    background-color: inherit;
+                    color: $color-yellow;
+                    font-family: $titles;
+                }
+            }
+    
+            .active {
+                background-color: $color-yellow;
+                border-radius: 24px;
+                padding: 20px;
+                width: 260px;
+                margin: 0 5px;
+                text-align: center;
+                p {
+                    font-size: 16px;
+                    background-color: inherit;
+                    color: $color-deep-purple;
+                    font-family: $titles;
+                }
+            }
+        }
+    
+        .link {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            h3 {
+                width: 600px;
+                background-color: $color-deep-purple;
+                padding: 20px 0px;
+                color: $color-yellow;
+                font-size: 16px;
+                font-family: $titles;
+                border-radius: 24px;
+            }
+        }
+    
+        .error {
+            display: flex;
+            justify-content: center;
+            
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-self: center;
+                align-items: center;
+        
+                margin: 15px 0;
+                background-color: $color-yellow; 
+                width: 91vw;
+                border-radius: 24px;
+                padding: 20px 0px;
+                svg {
+                    margin-left: 10px;
+                    background-color: $color-yellow;  
+                }
+                p {
+                    margin-right: 10px;
+                    text-align: center;
+                    background-color: $color-yellow; 
+                    color: $color-deep-purple;
+                    font-size: 16px;
+                    font-family: $titles;
+                }
+            }
+        }
+    }
+}

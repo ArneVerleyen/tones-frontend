@@ -1,0 +1,105 @@
+@import '../../app.scss';
+
+.end-session-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 28px;
+        text-align: right;
+        font-family: $titles;
+        color: $color-yellow;
+        font-weight: 400;
+    }
+
+    .interval-score-container {
+        .interval-score {
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            width: 70VW;
+            justify-content: space-between;
+            p {
+                margin-right: 20px;
+                font-family: $aller;
+                color: $color-yellow;
+                font-size: 16px;
+            }
+        }
+        margin-bottom: 50px;
+    }
+
+    .save {
+        cursor: pointer;
+        margin: 2px 2px;
+        text-align: center;
+        height: 12vh;
+        width: 70VW;
+        background-color: #470047;
+        border-radius: 24px;
+        vertical-align: middle;
+        border: none;
+        p{
+            margin: 4vh 0 0 12px;
+            font-family: $titles;
+            background-color: #470047;
+            font-size: 18px;
+            color: $color-yellow;
+            font-weight: 300;
+            margin-right: 20px;
+        } 
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .end-session-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        h1 {
+            text-align: right;
+            font-family: $titles;
+            color: $color-yellow;
+            font-weight: 400;
+        }
+    
+        .interval-score-container {
+            .interval-score {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                width: 550px;
+                justify-content: space-between;
+                p {
+                    margin-right: 20px;
+                    font-family: $aller;
+                    color: $color-yellow;
+                    font-size: 16px;
+                }
+            }
+            margin-bottom: 50px;
+        }
+    
+        .save {
+            cursor: pointer;
+            margin: 2px 2px;
+            text-align: center;
+            height: 12vh;
+            width: 278px;
+            background-color: #470047;
+            border-radius: 24px;
+            vertical-align: middle;
+            p{
+                margin: 4vh 0 0 12px;
+                font-family: $titles;
+                background-color: #470047;
+                font-size: 18px;
+                color: $color-yellow;
+                font-weight: 300;
+                margin-right: 20px;
+            } 
+        }
+    }
+}

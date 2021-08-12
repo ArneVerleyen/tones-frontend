@@ -1,0 +1,121 @@
+@import '../../app.scss';
+*{
+    background-color: $color-purple;
+}
+.home-container{
+    background-color: $color-purple;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .header-image-container{
+        img{
+            width: 100vw;
+            height:50vh;
+            object-fit: cover;
+        }
+    }
+
+    .header-container{
+        height: 0;
+    }
+
+    .welcome-container{
+        position: relative;
+        top: -150px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+
+        h1{
+            color: $color-yellow;
+            font-family: $titles;
+            font-size: 32px;
+            font-weight: 300;
+            background-color: transparent;
+        }
+        p{
+            color: $color-yellow;
+            font-family: $aller;
+            font-size: 16px;
+            font-weight: 300;
+            background-color: transparent;
+
+        }
+    }
+    a{
+        text-decoration: none;
+        font-weight: 300;
+        color: $color-yellow;
+        font-family: $aller;
+        font-size: 16px;
+        background-color: transparent;
+    }
+    a:hover {
+        color: $color-light-purple;
+    }
+    .link-btn{
+        text-align: center;
+        width: 200px;
+        text-decoration: none;
+        font-weight: 300;
+        background-color: $color-deep-purple;
+        color: $color-yellow;
+        font-family: $titles;
+        font-size: 24px;
+        padding: 10px 15px;
+        border-radius: 24px;
+        margin: 40px;
+    }
+    img{
+        // margin-top: 20px;
+        width: 100vw;
+        height: auto;
+    }
+    p{
+        color: $color-yellow;
+        font-family: $aller;
+        font-size: 16px;
+        font-weight: 300;
+        max-width: 600px;
+        margin: 0 10px;
+    }
+    #read-more {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        a {
+            list-style: none;
+            color: $color-light-orange;
+            font-family: $aller;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        a:hover {
+            color: $color-light-purple;
+        }
+        max-width: 500px;
+        text-align: left;
+        margin: 0 30px 50px 30px;
+        color: $color-yellow;
+        font-family: $aller;
+        font-size: 16px;
+        padding: 15px;
+        font-weight: 300;
+    }
+}
+@media only screen and (max-width: 320px)  {
+    .home-container {
+        h1 {
+            font-size: 18px;
+        }
+    }
+}
