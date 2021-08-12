@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tones-frontend/static/css/main.49124579.chunk.css",
-    "main.js": "/tones-frontend/static/js/main.bff50845.chunk.js",
-    "main.js.map": "/tones-frontend/static/js/main.bff50845.chunk.js.map",
+    "main.js": "/tones-frontend/static/js/main.4e717218.chunk.js",
+    "main.js.map": "/tones-frontend/static/js/main.4e717218.chunk.js.map",
     "runtime-main.js": "/tones-frontend/static/js/runtime-main.528817af.js",
     "runtime-main.js.map": "/tones-frontend/static/js/runtime-main.528817af.js.map",
-    "static/js/2.a8415957.chunk.js": "/tones-frontend/static/js/2.a8415957.chunk.js",
-    "static/js/2.a8415957.chunk.js.map": "/tones-frontend/static/js/2.a8415957.chunk.js.map",
+    "static/js/2.ff341314.chunk.js": "/tones-frontend/static/js/2.ff341314.chunk.js",
+    "static/js/2.ff341314.chunk.js.map": "/tones-frontend/static/js/2.ff341314.chunk.js.map",
     "static/js/3.e802b276.chunk.js": "/tones-frontend/static/js/3.e802b276.chunk.js",
     "static/js/3.e802b276.chunk.js.map": "/tones-frontend/static/js/3.e802b276.chunk.js.map",
     "index.html": "/tones-frontend/index.html",
     "static/css/main.49124579.chunk.css.map": "/tones-frontend/static/css/main.49124579.chunk.css.map",
-    "static/js/2.a8415957.chunk.js.LICENSE.txt": "/tones-frontend/static/js/2.a8415957.chunk.js.LICENSE.txt",
+    "static/js/2.ff341314.chunk.js.LICENSE.txt": "/tones-frontend/static/js/2.ff341314.chunk.js.LICENSE.txt",
     "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/tones-frontend/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
     "static/media/close.afb4d2cf.svg": "/tones-frontend/static/media/close.afb4d2cf.svg",
     "static/media/hamburger.be0a175c.svg": "/tones-frontend/static/media/hamburger.be0a175c.svg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.528817af.js",
-    "static/js/2.a8415957.chunk.js",
+    "static/js/2.ff341314.chunk.js",
     "static/css/main.49124579.chunk.css",
-    "static/js/main.bff50845.chunk.js"
+    "static/js/main.4e717218.chunk.js"
   ]
 }
