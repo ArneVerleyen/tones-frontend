@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
         <AuthProvider>
-            <Router>
+            <Router basename='/'>
                 <ApiProvider>
                     <Switch>
                         <Redirect exact path = {Routes.LANDING} to = {Routes.HOME} />
