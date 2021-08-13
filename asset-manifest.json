@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/arneverleyen.github.io/tones-frontend/static/css/main.49124579.chunk.css",
-    "main.js": "/arneverleyen.github.io/tones-frontend/static/js/main.1a74d9b1.chunk.js",
-    "main.js.map": "/arneverleyen.github.io/tones-frontend/static/js/main.1a74d9b1.chunk.js.map",
-    "runtime-main.js": "/arneverleyen.github.io/tones-frontend/static/js/runtime-main.98e13c55.js",
-    "runtime-main.js.map": "/arneverleyen.github.io/tones-frontend/static/js/runtime-main.98e13c55.js.map",
-    "static/js/2.10ba9c65.chunk.js": "/arneverleyen.github.io/tones-frontend/static/js/2.10ba9c65.chunk.js",
-    "static/js/2.10ba9c65.chunk.js.map": "/arneverleyen.github.io/tones-frontend/static/js/2.10ba9c65.chunk.js.map",
-    "static/js/3.e802b276.chunk.js": "/arneverleyen.github.io/tones-frontend/static/js/3.e802b276.chunk.js",
-    "static/js/3.e802b276.chunk.js.map": "/arneverleyen.github.io/tones-frontend/static/js/3.e802b276.chunk.js.map",
-    "index.html": "/arneverleyen.github.io/tones-frontend/index.html",
-    "static/css/main.49124579.chunk.css.map": "/arneverleyen.github.io/tones-frontend/static/css/main.49124579.chunk.css.map",
-    "static/js/2.10ba9c65.chunk.js.LICENSE.txt": "/arneverleyen.github.io/tones-frontend/static/js/2.10ba9c65.chunk.js.LICENSE.txt",
-    "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/arneverleyen.github.io/tones-frontend/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
-    "static/media/close.afb4d2cf.svg": "/arneverleyen.github.io/tones-frontend/static/media/close.afb4d2cf.svg",
-    "static/media/hamburger.be0a175c.svg": "/arneverleyen.github.io/tones-frontend/static/media/hamburger.be0a175c.svg",
-    "static/media/header.7c42a081.png": "/arneverleyen.github.io/tones-frontend/static/media/header.7c42a081.png",
-    "static/media/play.5e83fbcb.svg": "/arneverleyen.github.io/tones-frontend/static/media/play.5e83fbcb.svg",
-    "static/media/sound-icon.146bca53.svg": "/arneverleyen.github.io/tones-frontend/static/media/sound-icon.146bca53.svg",
-    "static/media/tones.d196d7bf.png": "/arneverleyen.github.io/tones-frontend/static/media/tones.d196d7bf.png",
-    "static/media/tones_app.de18db96.png": "/arneverleyen.github.io/tones-frontend/static/media/tones_app.de18db96.png"
+    "main.css": "/static/css/main.49124579.chunk.css",
+    "main.js": "/static/js/main.d83aa4a7.chunk.js",
+    "main.js.map": "/static/js/main.d83aa4a7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef363110.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef363110.js.map",
+    "static/js/2.1294faa9.chunk.js": "/static/js/2.1294faa9.chunk.js",
+    "static/js/2.1294faa9.chunk.js.map": "/static/js/2.1294faa9.chunk.js.map",
+    "static/js/3.e802b276.chunk.js": "/static/js/3.e802b276.chunk.js",
+    "static/js/3.e802b276.chunk.js.map": "/static/js/3.e802b276.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.49124579.chunk.css.map": "/static/css/main.49124579.chunk.css.map",
+    "static/js/2.1294faa9.chunk.js.LICENSE.txt": "/static/js/2.1294faa9.chunk.js.LICENSE.txt",
+    "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
+    "static/media/close.afb4d2cf.svg": "/static/media/close.afb4d2cf.svg",
+    "static/media/hamburger.be0a175c.svg": "/static/media/hamburger.be0a175c.svg",
+    "static/media/header.7c42a081.png": "/static/media/header.7c42a081.png",
+    "static/media/play.5e83fbcb.svg": "/static/media/play.5e83fbcb.svg",
+    "static/media/sound-icon.146bca53.svg": "/static/media/sound-icon.146bca53.svg",
+    "static/media/tones.d196d7bf.png": "/static/media/tones.d196d7bf.png",
+    "static/media/tones_app.de18db96.png": "/static/media/tones_app.de18db96.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.98e13c55.js",
-    "static/js/2.10ba9c65.chunk.js",
+    "static/js/runtime-main.ef363110.js",
+    "static/js/2.1294faa9.chunk.js",
     "static/css/main.49124579.chunk.css",
-    "static/js/main.1a74d9b1.chunk.js"
+    "static/js/main.d83aa4a7.chunk.js"
   ]
 }
