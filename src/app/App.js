@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as HashRouter, Switch, Redirect} from 'react-router-dom';
 
 // scss import.
 import './_sass/index.scss';
@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
         <AuthProvider>
-            <Router basename='/'>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <ApiProvider>
                     <Switch>
                         <Redirect exact path = {Routes.LANDING} to = {Routes.HOME} />
@@ -85,7 +85,7 @@ function App() {
                         <RouteWithLayout exact path = {Routes.AUTH_SIGN_UP} component = {RegisterPage} layout = {PageLayOut} />
                     </Switch>
                 </ApiProvider>
-            </Router>
+            </HashRouter>
         </AuthProvider>
     </div>
   );

@@ -6,9 +6,8 @@ const ApiContext = createContext();
 const useApi = () => useContext(ApiContext);
 
 const ApiProvider = ({children}) => {
-    const BASE_URL = 'http://178.62.244.184';
+    const BASE_URL = 'https://www.tablejourney.online';
 
-    console.log(BASE_URL)
 
     const findAllSessions = async (query = null) => {
         let url = `${BASE_URL}/wp-json/wp/v2/session`;
@@ -25,7 +24,6 @@ const ApiProvider = ({children}) => {
             url = url + `&page=${query}`;
         };
         const response = await fetch(url);
-        console.log(response)
         return response.json();
     };
 

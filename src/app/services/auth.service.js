@@ -1,5 +1,4 @@
 import React, {createContext, useContext, useState} from 'react';
-import { apiConfig } from '../config';
 import * as jwt from 'jsonwebtoken';
 
 
@@ -8,7 +7,7 @@ const useAuth = () => useContext(AuthContext);
 
 const AuthProvider = ({children}) => {
 
-    const BASE_URL = 'http://178.62.244.184';
+    const BASE_URL = 'https://www.tablejourney.online';
 
     const verifyUserFromLocalStorage = () => {
         if (JSON.parse(localStorage.getItem('mern:authUser'))) {

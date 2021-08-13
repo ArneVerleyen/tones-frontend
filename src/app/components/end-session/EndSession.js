@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { useHistory, Link } from 'react-router';
+import React, {} from 'react';
+import { useHistory } from 'react-router';
 import * as Routes from '../../routes';
 import { ProgressBarSmall } from '../progress-bar';
 import './endSession.scss';
@@ -7,8 +7,6 @@ import './endSession.scss';
 import { useApi } from '../../services';
 
 const EndSession = () => {
-
-    const [ logged, setLogged ] = useState(true);
 
     const { storeSession } = useApi();
 
