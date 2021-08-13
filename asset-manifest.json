@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/www.tablejourney.online/static/css/main.49124579.chunk.css",
-    "main.js": "/www.tablejourney.online/static/js/main.417ea0bd.chunk.js",
-    "main.js.map": "/www.tablejourney.online/static/js/main.417ea0bd.chunk.js.map",
-    "runtime-main.js": "/www.tablejourney.online/static/js/runtime-main.ad3bd513.js",
-    "runtime-main.js.map": "/www.tablejourney.online/static/js/runtime-main.ad3bd513.js.map",
-    "static/js/2.fcede31d.chunk.js": "/www.tablejourney.online/static/js/2.fcede31d.chunk.js",
-    "static/js/2.fcede31d.chunk.js.map": "/www.tablejourney.online/static/js/2.fcede31d.chunk.js.map",
-    "static/js/3.e802b276.chunk.js": "/www.tablejourney.online/static/js/3.e802b276.chunk.js",
-    "static/js/3.e802b276.chunk.js.map": "/www.tablejourney.online/static/js/3.e802b276.chunk.js.map",
-    "index.html": "/www.tablejourney.online/index.html",
-    "static/css/main.49124579.chunk.css.map": "/www.tablejourney.online/static/css/main.49124579.chunk.css.map",
-    "static/js/2.fcede31d.chunk.js.LICENSE.txt": "/www.tablejourney.online/static/js/2.fcede31d.chunk.js.LICENSE.txt",
-    "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/www.tablejourney.online/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
-    "static/media/close.afb4d2cf.svg": "/www.tablejourney.online/static/media/close.afb4d2cf.svg",
-    "static/media/hamburger.be0a175c.svg": "/www.tablejourney.online/static/media/hamburger.be0a175c.svg",
-    "static/media/header.7c42a081.png": "/www.tablejourney.online/static/media/header.7c42a081.png",
-    "static/media/play.5e83fbcb.svg": "/www.tablejourney.online/static/media/play.5e83fbcb.svg",
-    "static/media/sound-icon.146bca53.svg": "/www.tablejourney.online/static/media/sound-icon.146bca53.svg",
-    "static/media/tones.d196d7bf.png": "/www.tablejourney.online/static/media/tones.d196d7bf.png",
-    "static/media/tones_app.de18db96.png": "/www.tablejourney.online/static/media/tones_app.de18db96.png"
+    "main.css": "/static/css/main.49124579.chunk.css",
+    "main.js": "/static/js/main.d83aa4a7.chunk.js",
+    "main.js.map": "/static/js/main.d83aa4a7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef363110.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef363110.js.map",
+    "static/js/2.1294faa9.chunk.js": "/static/js/2.1294faa9.chunk.js",
+    "static/js/2.1294faa9.chunk.js.map": "/static/js/2.1294faa9.chunk.js.map",
+    "static/js/3.e802b276.chunk.js": "/static/js/3.e802b276.chunk.js",
+    "static/js/3.e802b276.chunk.js.map": "/static/js/3.e802b276.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.49124579.chunk.css.map": "/static/css/main.49124579.chunk.css.map",
+    "static/js/2.1294faa9.chunk.js.LICENSE.txt": "/static/js/2.1294faa9.chunk.js.LICENSE.txt",
+    "static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg": "/static/media/ARTEVELDE_hs_logo RGB.99ce359b.svg",
+    "static/media/close.afb4d2cf.svg": "/static/media/close.afb4d2cf.svg",
+    "static/media/hamburger.be0a175c.svg": "/static/media/hamburger.be0a175c.svg",
+    "static/media/header.7c42a081.png": "/static/media/header.7c42a081.png",
+    "static/media/play.5e83fbcb.svg": "/static/media/play.5e83fbcb.svg",
+    "static/media/sound-icon.146bca53.svg": "/static/media/sound-icon.146bca53.svg",
+    "static/media/tones.d196d7bf.png": "/static/media/tones.d196d7bf.png",
+    "static/media/tones_app.de18db96.png": "/static/media/tones_app.de18db96.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad3bd513.js",
-    "static/js/2.fcede31d.chunk.js",
+    "static/js/runtime-main.ef363110.js",
+    "static/js/2.1294faa9.chunk.js",
     "static/css/main.49124579.chunk.css",
-    "static/js/main.417ea0bd.chunk.js"
+    "static/js/main.d83aa4a7.chunk.js"
   ]
 }
